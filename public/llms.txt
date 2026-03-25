@@ -1,47 +1,62 @@
-# Business — Generative Engine Optimization Map
+# נויה סוכנות לביטוח — Generative Engine Optimization Map
+
+> Noya is a licensed insurance agency authorized to operate across all insurance domains, including car, home, and business insurance. The agency works with all major insurance companies, positioning itself as a comprehensive one-stop solution for clients seeking full insurance coverage. The brand conveys trust, professionalism, and broad market access.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://noya-insurance-agency.zappy5.app
 נויה סוכנות לביטוח מציעה פתרון ביטוחי מקיף לפרטיים ועסקים — ביטוח רכב, דירה ועסקים במחיר הטוב ביותר. כל חברות הביטוח במקום אחד. קבל הצעת מחיר עכשיו!
 
 ### שירותים
-https://example.com/services
+https://noya-insurance-agency.zappy5.app/services
 ביטוח רכב, ביטוח דירה במחיר זול וביטוח עסקים לעסקים קטנים — נויה מציגה מגוון שירותים מותאמים אישית עם גישה לכל חברות הביטוח המובילות. גלה את הכיסוי המושלם עבורך!
 
 ### אודות
-https://example.com/about
+https://noya-insurance-agency.zappy5.app/about
 נויה היא סוכנות ביטוח מורשית הפועלת בכל תחומי הביטוח עם מחויבות לאמינות, מקצועיות ושקיפות מלאה. גלה מדוע אלפי לקוחות פרטיים ועסקים בוחרים בנו שוב ושוב.
 
 ### צור קשר
-https://example.com/contact
+https://noya-insurance-agency.zappy5.app/contact
 רוצה הצעת מחיר לביטוח רכב, דירה או עסק? צוות המומחים של נויה סוכנות לביטוח זמין עבורך עכשיו. פנה אלינו היום ונמצא יחד את הכיסוי הביטוחי המתאים לצרכיך!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://noya-insurance-agency.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://noya-insurance-agency.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://noya-insurance-agency.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About נויה סוכנות לביטוח
+Noya is a licensed insurance agency authorized to operate across all insurance domains, including car, home, and business insurance. The agency works with all major insurance companies, positioning itself as a comprehensive one-stop solution for clients seeking full insurance coverage. The brand conveys trust, professionalism, and broad market access.
+
+## Services/Products
+- ביטוח רכב
+- ביטוח דירה
+- ביטוח עסקים
+
+## Target Audience
+פרטיים ועסקים
+
+## Industry
+ביטוח
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://noya-insurance-agency.zappy5.app/sitemap.xml
+- **Robots.txt**: https://noya-insurance-agency.zappy5.app/robots.txt
