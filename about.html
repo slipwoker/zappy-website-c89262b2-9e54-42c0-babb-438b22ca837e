@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0506894405" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0506894405';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -826,7 +826,7 @@
   </div>
   <!-- Bottom Divider -->
   <div class="about-intro-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,48 Q120,28 240,42 T480,36 Q600,44 720,32 T960,40 Q1080,28 1200,38 T1440,44 L1440,80 Z" fill="#F5F4FB"></path>
     </svg>
   </div>
@@ -865,7 +865,7 @@
       <div class="about-story-text-col about-story-text-col--second">
         <div class="about-story-value-block">
           <div class="about-story-value-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="14" cy="14" r="13" stroke="currentColor" stroke-width="2"></circle>
               <path d="M9 14.5l3.5 3.5 6.5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -878,7 +878,7 @@
 
         <div class="about-story-value-block">
           <div class="about-story-value-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 3L17.5 10.5H25L19 15.5L21.5 23L14 18.5L6.5 23L9 15.5L3 10.5H10.5L14 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
             </svg>
           </div>
@@ -890,7 +890,7 @@
 
         <div class="about-story-value-block">
           <div class="about-story-value-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 4C14 4 6 8 6 15C6 19.4 9.6 23 14 23C18.4 23 22 19.4 22 15C22 8 14 4 14 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
               <path d="M14 13v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
               <circle cx="14" cy="11" r="1" fill="currentColor"></circle>
@@ -910,7 +910,7 @@
 
   <!-- Bottom SVG Divider — curves into the darker principles section -->
   <div class="about-story-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,48 Q180,10 360,38 T720,24 Q900,10 1080,36 T1440,22 L1440,90 Z" fill="#18314F"></path>
     </svg>
   </div>
@@ -919,7 +919,7 @@
 <section class="about-principles-section" data-layout-spec="אודות-principles" dir="rtl">
   <!-- Network texture SVG overlay -->
   <div class="about-principles-texture" aria-hidden="true">
-    <svg width="100%" height="100%" viewbox="0 0 1200 600" preserveaspectratio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+    <svg width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
       <g stroke="rgba(255,255,255,0.045)" stroke-width="1" fill="none">
         <line x1="0" y1="150" x2="1200" y2="150"></line>
         <line x1="0" y1="300" x2="1200" y2="300"></line>
@@ -958,7 +958,7 @@
       <!-- Panel 1: Professionalism -->
       <article class="about-principle-panel">
         <div class="about-principle-icon-wrap">
-          <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
             <path d="M18 4L22.5 13.2L33 14.7L25.5 22L27.5 32.5L18 27.5L8.5 32.5L10.5 22L3 14.7L13.5 13.2L18 4Z" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" fill="none"></path>
           </svg>
         </div>
@@ -972,7 +972,7 @@
       <!-- Panel 2: Trust -->
       <article class="about-principle-panel">
         <div class="about-principle-icon-wrap">
-          <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
             <path d="M18 3L6 8V18C6 25.2 11.2 31.9 18 33C24.8 31.9 30 25.2 30 18V8L18 3Z" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" fill="none"></path>
             <path d="M13 18L16.5 21.5L23 14" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -987,7 +987,7 @@
       <!-- Panel 3: Broad Market Access -->
       <article class="about-principle-panel">
         <div class="about-principle-icon-wrap">
-          <svg width="36" height="36" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
             <circle cx="18" cy="18" r="14" stroke="var(--accent)" stroke-width="2" fill="none"></circle>
             <path d="M18 4C18 4 12 11 12 18C12 25 18 32 18 32" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" fill="none"></path>
             <path d="M18 4C18 4 24 11 24 18C24 25 18 32 18 32" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" fill="none"></path>
@@ -1008,7 +1008,7 @@
 
   <!-- Bottom wave divider with amber accent line -->
   <div class="about-principles-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Amber accent line riding the wave -->
       <path d="M0,42 Q100,32 200,40 T400,36 Q500,42 600,34 T800,38 Q900,32 1000,40 T1200,36" stroke="var(--accent)" stroke-width="2" fill="#F5F4FB" opacity="0.7"></path>
       <!-- Fill to next section (light) -->
@@ -1038,7 +1038,7 @@
         <div class="about-methodology-section__stage-number">01</div>
         <div class="about-methodology-section__stage-content">
           <div class="about-methodology-section__stage-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="16" cy="10" r="5"></circle>
               <path d="M6 28c0-5.523 4.477-10 10-10s10 4.477 10 10"></path>
             </svg>
@@ -1054,7 +1054,7 @@
         <div class="about-methodology-section__stage-number">02</div>
         <div class="about-methodology-section__stage-content">
           <div class="about-methodology-section__stage-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <rect x="4" y="4" width="24" height="24" rx="3"></rect>
               <path d="M10 12h12M10 16h8M10 20h5"></path>
             </svg>
@@ -1070,7 +1070,7 @@
         <div class="about-methodology-section__stage-number">03</div>
         <div class="about-methodology-section__stage-content">
           <div class="about-methodology-section__stage-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M16 4l2.5 7.5H26l-6.5 4.7 2.5 7.5L16 19l-6 4.7 2.5-7.5L6 11.5h7.5z"></path>
             </svg>
           </div>
@@ -1085,7 +1085,7 @@
         <div class="about-methodology-section__stage-number">04</div>
         <div class="about-methodology-section__stage-content">
           <div class="about-methodology-section__stage-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z"></path>
               <path d="M16 10v6l4 2"></path>
             </svg>
@@ -1106,7 +1106,7 @@
 
   <!-- Bottom angled divider -->
   <div class="about-methodology-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,42 L1440,12 L1440,80 Z" fill="#FFFFFF"></path>
     </svg>
   </div>
@@ -1129,7 +1129,7 @@
 
       <div class="about-credentials-trust-item">
         <div class="about-credentials-trust-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M14 2L17.5 9.5H26L19.5 14.5L22 22L14 17.5L6 22L8.5 14.5L2 9.5H10.5L14 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"></path>
           </svg>
         </div>
@@ -1143,7 +1143,7 @@
 
       <div class="about-credentials-trust-item">
         <div class="about-credentials-trust-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="14" cy="14" r="11" stroke="currentColor" stroke-width="2"></circle>
             <path d="M8 14l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -1158,7 +1158,7 @@
 
       <div class="about-credentials-trust-item">
         <div class="about-credentials-trust-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <rect x="3" y="7" width="22" height="16" rx="3" stroke="currentColor" stroke-width="2"></rect>
             <path d="M3 12h22" stroke="currentColor" stroke-width="2"></path>
             <path d="M8 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
@@ -1174,7 +1174,7 @@
 
       <div class="about-credentials-trust-item">
         <div class="about-credentials-trust-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M14 3C14 3 5 7 5 14v6l9 4 9-4v-6C23 7 14 3 14 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"></path>
             <path d="M10 14l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -1203,9 +1203,9 @@
           <img src="/assets/logo-1774456053152-mwvzra.webp?v=1774456053479-b81aqq" alt="נויה סוכנות לביטוח" class="logo">
           <p class="footer-tagline">שערכם לשוק הביטוח המלא — פתרונות ביטוח מותאמים אישית לפרטיים ולעסקים.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1225,14 +1225,14 @@
           <ul class="footer-contact">
             <li>
               <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-              <a href="mailto:[business_email]">[business_email]</a>
+              <a href="mailto:nir@noya-ins.co.il">nir@noya-ins.co.il</a>
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
-              <a href="tel:[business_phone]">[business_phone]</a>
+              <a href="tel:0506894405">0506894405</a>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span>[business_address]</span></a></li>
+              <span>קדושי קהיר 9, חולון, 583098, ישראל</span></a></li>
           </ul>
         </div>
 
