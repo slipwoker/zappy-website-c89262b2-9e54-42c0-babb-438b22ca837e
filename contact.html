@@ -342,7 +342,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="נויה סוכנות לביטוח" class="logo">
+        <img src="/assets/logo-1774456053152-mwvzra.webp?v=1774456053479-b81aqq" alt="נויה סוכנות לביטוח" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li></ul></div>
 
@@ -983,7 +983,15 @@
             <textarea class="contact-form-section__input contact-form-section__textarea" id="cf-message" name="message" placeholder="ספרו לנו במה תרצו שנסייע לכם — ביטוח רכב, דירה, עסק או כל צורך אחר..." rows="5"></textarea>
           </div>
 
-          <button type="submit" class="btn-primary contact-form-section__submit">
+          <!-- privacy-consent-fix -->
+<div class="privacy-consent" style="color: var(--text-light, #fff)">
+  <label class="privacy-consent-label">
+    <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required />
+    <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
+  </label>
+</div>
+<script data-privacy-consent-validation>(function(){if(window._zpcv)return;window._zpcv=1;var _l=document.documentElement.lang||"";var isHe=_l==="he"||(_l!=="ar"&&document.documentElement.dir==="rtl");var isAr=_l==="ar";var valMsg=isHe?"יש לאשר את תנאי השימוש ומדיניות הפרטיות":isAr?"يرجى الموافقة على الشروط والأحكام وسياسة الخصوصية":"Please accept the Terms & Conditions and Privacy Policy";var cbs=document.querySelectorAll(".privacy-consent-checkbox");cbs.forEach(function(cb){cb.setCustomValidity(cb.checked?"":valMsg);cb.addEventListener("change",function(){cb.setCustomValidity(cb.checked?"":valMsg)})});document.addEventListener("submit",function(e){var f=e.target;if(!f||f.tagName!=="FORM")return;var cb=f.querySelector(".privacy-consent-checkbox");if(!cb||cb.checked)return;e.preventDefault();e.stopImmediatePropagation();if(typeof window.zappyNotify==="function"){window.zappyNotify(valMsg,"error")}else if(typeof window.showNotification==="function"){window.showNotification(valMsg,"error")}else{var ex=document.querySelectorAll(".zappy-privacy-error");ex.forEach(function(el){el.remove()});var n=document.createElement("div");n.className="zappy-privacy-error";n.style.cssText="position:fixed;top:20px;right:20px;max-width:400px;padding:14px 18px;background:#f8d7da;color:#721c24;border:1px solid #f5c6cb;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:10000;font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:14px";n.textContent=valMsg;document.body.appendChild(n);setTimeout(function(){if(n.parentElement)n.remove()},6000)}cb.focus()},true)})();</script>
+<button type="submit" class="btn-primary contact-form-section__submit">
             <span>שלחו פנייה</span>
             <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
           </button>
@@ -1163,7 +1171,7 @@
 
         <!-- Column 1: Company Info -->
         <div class="footer-col footer-brand">
-          <img src="/assets/business-logo.webp" alt="נויה סוכנות לביטוח" class="logo">
+          <img src="/assets/logo-1774456053152-mwvzra.webp?v=1774456053479-b81aqq" alt="נויה סוכנות לביטוח" class="logo">
           <p class="footer-tagline">שערכם לשוק הביטוח המלא — פתרונות ביטוח מותאמים אישית לפרטיים ולעסקים.</p>
           <div class="footer-social">
             <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>

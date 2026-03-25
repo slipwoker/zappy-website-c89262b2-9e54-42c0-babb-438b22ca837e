@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noya-insurance-agency.zappy5.app/sitemap.xml
+Sitemap: https://nir-ayalon.co.il/sitemap.xml
